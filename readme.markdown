@@ -1,7 +1,7 @@
 # Word Searcher #
 
 Your goal is to take this ready to run but useless UI word searcher and
-turn it into something that is visually impressive.
+turn it into something that is visually impressive with your mad skills.
 
 ## Install ##
 
