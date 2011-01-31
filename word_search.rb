@@ -1,7 +1,6 @@
-require 'trie'
+require 'algorithms'
 
 class WordSearch
-
   attr_reader :db
   attr_reader :filter
 
@@ -9,7 +8,7 @@ class WordSearch
   #
   # @param [Array] Filter to only words that start with letters in this array.
   def initialize(filter = nil)
-    @db = Trie.new
+    @db = Containers::Trie.new
     @filter = filter
   end
 
