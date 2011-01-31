@@ -14,4 +14,10 @@ class WordSearchApp < Sinatra::Base
   get '/find/:term' do
     { :matches => ws.search(params[:term]) }.to_json
   end
+
+  get '/about' do
+    haml :about
+  end
+
+
 end
